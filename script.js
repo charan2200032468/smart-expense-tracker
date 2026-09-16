@@ -10,7 +10,7 @@ function save() {
 localStorage.setItem("transactions", JSON.stringify(transactions));
 }
 function money(value) {
-return "■" + value.toLocaleString("en-IN");
+return "₹" + value.toLocaleString("en-IN");
 }
 function render() {
 list.innerHTML = "";
