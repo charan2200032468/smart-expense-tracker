@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Expense Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="container">
+<header>
+<h1>Smart Expense Tracker</h1>
+<p>Track your money. Understand your spending.</p>
+</header>
+<section class="summary">
+<div class="card"><span>Balance</span><strong id="balance">■0</strong></div>
+<div class="card"><span>Income</span><strong id="income">■0</strong></div>
+<div class="card"><span>Expenses</span><strong id="expense">■0</strong></div>
+</section>
+<section class="panel">
+<h2>Add Transaction</h2>
+<form id="transactionForm">
+<input id="description" type="text" placeholder="Description" required>
+<input id="amount" type="number" placeholder="Amount" min="1" required>
+<select id="type">
+<option value="income">Income</option>
+<option value="expense">Expense</option>
+</select>
+<select id="category">
+<option>Food</option>
+<option>Travel</option>
+<option>Shopping</option>
+<option>Bills</option>
+<option>Salary</option>
+<option>Other</option>
+</select>
+<button type="submit">Add Transaction</button>
+</form>
+</section>
+<section class="panel">
+<div class="section-title">
+<h2>Transactions</h2>
+<button id="clearBtn" class="danger">Clear All</button>
+</div>
+<ul id="transactionList"></ul>
+<p id="emptyMessage">No transactions yet.</p>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
