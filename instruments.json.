@@ -1,0 +1,131 @@
+[
+  {
+    "id": 1,
+    "name": "UV-Vis Spectrophotometer",
+    "category": "Spectrophotometer",
+    "application": "Biochemistry",
+    "technology": "UV-Vis",
+    "budget": 2,
+    "price": "₹2L – ₹5L",
+    "description": "Measures absorbance for concentration and biochemical analysis.",
+    "keywords": [
+      "protein",
+      "dna",
+      "absorbance",
+      "enzyme",
+      "concentration"
+    ],
+    "specifications": {
+      "measurement": "Absorbance",
+      "sampleType": "Liquid samples",
+      "useCase": "Biochemistry and research"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Fluorometer",
+    "category": "Fluorescence Instrument",
+    "application": "Molecular Biology",
+    "technology": "Fluorescence",
+    "budget": 3,
+    "price": "Above ₹5L",
+    "description": "Provides sensitive fluorescence-based measurements for molecular biology applications.",
+    "keywords": [
+      "dna",
+      "rna",
+      "fluorescence",
+      "nucleic acid"
+    ],
+    "specifications": {
+      "measurement": "Fluorescence",
+      "sampleType": "Nucleic acid samples",
+      "useCase": "Molecular biology"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Benchtop Centrifuge",
+    "category": "Centrifuge",
+    "application": "Sample Preparation",
+    "technology": "Centrifugation",
+    "budget": 1,
+    "price": "Under ₹2L",
+    "description": "Separates sample components using centrifugal force.",
+    "keywords": [
+      "sample",
+      "separation",
+      "blood",
+      "cell",
+      "preparation"
+    ],
+    "specifications": {
+      "measurement": "Centrifugal separation",
+      "sampleType": "Blood and laboratory samples",
+      "useCase": "Sample preparation"
+    }
+  },
+  {
+    "id": 4,
+    "name": "CO₂ Incubator",
+    "category": "Incubator",
+    "application": "Cell Culture",
+    "technology": "Controlled Atmosphere",
+    "budget": 3,
+    "price": "Above ₹5L",
+    "description": "Maintains controlled temperature and CO₂ conditions for cell culture.",
+    "keywords": [
+      "cell culture",
+      "cells",
+      "incubation",
+      "tissue"
+    ],
+    "specifications": {
+      "measurement": "Temperature and CO₂ control",
+      "sampleType": "Cell cultures",
+      "useCase": "Cell culture"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Microplate Reader",
+    "category": "Microplate Reader",
+    "application": "Biochemistry",
+    "technology": "Microplate",
+    "budget": 3,
+    "price": "Above ₹5L",
+    "description": "Supports optical measurements for high-throughput laboratory assays.",
+    "keywords": [
+      "protein",
+      "assay",
+      "elisa",
+      "high throughput"
+    ],
+    "specifications": {
+      "measurement": "Optical measurement",
+      "sampleType": "Microplates",
+      "useCase": "High-throughput assays"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Micropipette Set",
+    "category": "Liquid Handling",
+    "application": "Molecular Biology",
+    "technology": "Liquid Handling",
+    "budget": 1,
+    "price": "Under ₹2L",
+    "description": "Provides accurate liquid transfer for routine laboratory workflows.",
+    "keywords": [
+      "dna",
+      "sample",
+      "liquid",
+      "pcr",
+      "pipette"
+    ],
+    "specifications": {
+      "measurement": "Liquid volume",
+      "sampleType": "Laboratory samples",
+      "useCase": "Routine laboratory workflows"
+    }
+  }
+]
